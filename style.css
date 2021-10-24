@@ -1,7 +1,39 @@
-body
-{
+#bio {
+    font-family: 'Cinzel Decorative', cursive;
+    padding: 50px;
+    text-align: center;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: monospace;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 25px;
+    line-height: 1.3;
     text-align: center;
 }
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    margin-left: 650px;
+    border-radius: 50%;
+    width: 175px;
+}
+
 #welcome {
     color: #FFFFFF;
     bottom: 0;
@@ -11,51 +43,24 @@ body
     height: 100%;
     z-index: 9;
 }
-#bio {
-    font-family: 'Cinzel Decorative', cursive;
-    padding: 50px;
-    text-align: center;
-}
-h1 {
-    font-size: 40px;
-    font-family: sans-serif;
-    font-weight: 300;
-}
 
-.line {
+.line{
     height: 6px;
     background-color: #000;
     width: 70px;
     margin: 8px auto;
 }
-#contact iframe
+
+#work_iframe
 {
     width: 100%;
 }
-.contact_1 h3
-{
-    display: inline;
-}
-.contact_1 a
-{
-    text-shadow: none;
+
+#aaa {
+    margin-left: 500px;
+    font-size: 25px;
 }
 
-
-#videos iframe
-{
-    width: 80%;
-}
-
-
-input
-{
-    background: grey;
-}
-
-.my_nav_bar
-{
-    position: sticky;
-    z-index: 99999;
-    top: 0;
+#mfb {
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);  
 }
